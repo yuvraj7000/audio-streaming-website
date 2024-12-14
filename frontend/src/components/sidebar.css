@@ -1,0 +1,19 @@
+.sidebar {
+    height: 100vh; /* Full viewport height */
+    background-color: #0A0A0A;
+    width: 20vw; /* Sidebar width */
+    display: flex;
+    padding-top: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 80%;
+    padding: 20px;
+}
+
